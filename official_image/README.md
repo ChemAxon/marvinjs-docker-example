@@ -26,7 +26,7 @@ Execute the following command: `docker-compose -f mjs-with-own-license-server.ym
 ChemAxon provides a License server that you can use to access your license. For this, please
 consult the documentation: https://docs.chemaxon.com/display/docs/License+Server+Configuration
 
-We will set up the environment with license server URL,ad your credential. For this obtain
+We will set up the environment with license server URL, and your credential. For this obtain
 your credential from https://accounts.chemaxon.com/license-server If you can not see your 
 credentials there, please contact your salse representative.
 
