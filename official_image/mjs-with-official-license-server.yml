@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Copyright 2020 ChemAxon Ltd.
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,4 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-docker run --rm -ti -p 8080:8080 -v `pwd`:/home/cxnapp/.chemaxon/licenses/ hub.chemaxon.com/cxn-docker-release/chemaxon/mjs-webservice:latest
+version: '3'
+services: 
+  mjs:
+    image: hub.chemaxon.com/cxn-docker-release/chemaxon/mjs-webservice:latest
+    environment:
+      - "CHEMAXON_LICENSE_SERVER_URL=https://license.chemaxon.com/"
+      - "CHEMAXON_LICENSE_SERVER_KEY=<add your license key from https://accounts.chemaxon.com/license-server here>"
+    ports:
+      - "8080:8080"

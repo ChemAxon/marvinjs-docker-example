@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Copyright 2020 ChemAxon Ltd.
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,4 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-docker run --rm -ti -p 8080:8080 -v `pwd`:/home/cxnapp/.chemaxon/licenses/ hub.chemaxon.com/cxn-docker-release/chemaxon/mjs-webservice:latest
+FROM nginx:latest
+COPY ./license.cxl /usr/share/nginx/html/license.cxl
