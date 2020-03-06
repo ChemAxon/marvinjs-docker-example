@@ -7,7 +7,7 @@ about it on https://chemaxon.com/products/marvin-js/download#docker-panel on the
 
 # Download
 
-`docker pull hub.chemaxon.com/cxn-docker-release/chemaxon/mjs-webservcie:latest`
+`docker pull hub.chemaxon.com/cxn-docker-release/chemaxon/mjs-webservice:latest`
 
 # Execute
 
