@@ -1,6 +1,6 @@
 # Preparations
 
-Please downlaod your Marvin4JavaScript license and place into this folder as license.cxl
+Please download your Marvin JS license and place into this folder as license.cxl
 
 To use the official image you should "docker login" to https://hub.chemaxon.com you can find imnformations 
 about it on https://chemaxon.com/products/marvin-js/download#docker-panel on the Docker panel.
@@ -28,7 +28,7 @@ consult the documentation: https://docs.chemaxon.com/display/docs/License+Server
 
 We will set up the environment with license server URL, and your credential. For this obtain
 your credential from https://accounts.chemaxon.com/license-server If you can not see your 
-credentials there, please contact your salse representative.
+credentials there, please contact your sales representative.
 
 Before you run the following example, please edit the `mjs-with-official-license-server.yml` 
 file and set `CHEMAXON_LICENSE_SERVER_KEY` environment variable to your credential
