@@ -18,6 +18,10 @@ ADD mjsws.tar.gz /opt/chemaxon
 
 COPY license.cxl /root/.chemaxon/licenses/
 
+ENV DEFAULT_JVM_PROPS="-J-Djavax.accessibility.assistive_technologies=java.lang.Object -J-Djava.awt.headless=true"
+
+ENV USER_JVM_PROPS=""
+
 EXPOSE 8080
 
-CMD /opt/chemaxon/mjs-webservice/run-mjs-webservice
+CMD /opt/chemaxon/mjs-webservice/run-mjs-webservice $DEFAULT_JVM_PROPS $USER_JVM_PROPS
