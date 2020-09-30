@@ -10,7 +10,7 @@ warranty for it.
 1. docker installed
 2. docker-compose installed
 3. license for Marvin JS (ask your sales representative for it)
-4. download the binaries (current version: 19.8 available [here](https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fmjs-mini%2F19.8.0%2Fmjsws_unix_19.8.tar.gz))
+4. download the binaries (current version: 20.19 available [here](https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fmjs-mini%2F20.19.0%2Fmjsws_unix_20.19.tar.gz))
 
 ## How to run the image
 

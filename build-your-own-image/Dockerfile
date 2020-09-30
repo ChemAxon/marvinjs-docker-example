@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM openjdk:8u181-jdk-slim-stretch
+FROM openjdk:8-jdk-buster
 
 ADD mjsws.tar.gz /opt/chemaxon
 
